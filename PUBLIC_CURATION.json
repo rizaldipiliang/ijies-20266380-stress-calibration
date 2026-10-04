@@ -1,0 +1,195 @@
+{
+  "release_scope": "Scientific code/results for public uploading; external publication not asserted by this local record",
+  "transformations": [
+    {
+      "path": "canonical_selected/validation_predictions_M0_Vanilla_BERT.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "text"
+      ],
+      "rows": 421,
+      "original_sha256": "6ef7022d7ab3b265444f1373e68e3f81cc3e51eba8a612277fddba456e2d20e9",
+      "public_sha256": "aed017a4611db0315617aa4b5ffe7d4e9580d016e91618fd4fd0c60a8277681b"
+    },
+    {
+      "path": "canonical_selected/validation_predictions_M1_LS_0.05.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "text"
+      ],
+      "rows": 421,
+      "original_sha256": "283435461da4612d05204e1db09b670c16812f19d1da60b445eed89fce9060a1",
+      "public_sha256": "038bc78e28e20f32360e99711dd6671d8733e723521d53dbd500e3a7358d73ba"
+    },
+    {
+      "path": "canonical_selected/validation_predictions_M1_LS_0.10.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "text"
+      ],
+      "rows": 421,
+      "original_sha256": "e8fc9cf17ecc733bbbc315cba39cffb85d6eadf3d571d58fb8a5cbd1a03a852c",
+      "public_sha256": "ada69ebb29e4de13ee798c62f7e268301e4be30ce540c4157764aeb70873a822"
+    },
+    {
+      "path": "canonical_selected/validation_predictions_M1_LS_0.15.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "text"
+      ],
+      "rows": 421,
+      "original_sha256": "622e421f1a8d5c0c9413264d766d3fc6c6dff3b0863ac492faf293fea89c699c",
+      "public_sha256": "2f417eb78eaaa11978334dd9d5d07d03dfad1b7173ededbcb5409a2441057d21"
+    },
+    {
+      "path": "canonical_selected/validation_predictions_M2_AALS_0.10.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "text"
+      ],
+      "rows": 421,
+      "original_sha256": "c846f49604e8f24855936e0f88a0de17f4865055558a9baddcf992818892d269",
+      "public_sha256": "b72c4d11eed9ceca89825d14d1b7ce60a6afb1824a7a0c8b6dc8e499f0154d6c"
+    },
+    {
+      "path": "canonical_selected/validation_predictions_M2_AALS_0.15.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "text"
+      ],
+      "rows": 421,
+      "original_sha256": "c9ebe2a84e3ea10bff3b49b88da7ccce05ad3c2cbeee6d8f100026774ef7c201",
+      "public_sha256": "f784a1d4fc80b6519c91de1f45311451f8c9d76ab094b9e1504182b88e76645f"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/E6_RESULTS_FINAL.zip::bertopic_seed100_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 4,
+      "original_sha256": "6e6246065aaaa878153a973b31b545297e060850182068892fe1926227317801",
+      "public_sha256": "10ac362ea3c96b2e1b0ee696a6c2a5052316651522953fe69799c7ef985a3b75"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/E6_RESULTS_FINAL.zip::bertopic_seed13_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 3,
+      "original_sha256": "414e67c9dd9b8bf0cf6cfa3482fd03c971ea0f3dc0aa9ed1d74f8abba7621bb5",
+      "public_sha256": "82ef484554cf8f709152df35dda9bfa5fa032d03d40fee6b95561ce3022de595"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/E6_RESULTS_FINAL.zip::bertopic_seed21_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 4,
+      "original_sha256": "c724d615abbd477079875b3eeca943f1fa628038d276ef436c058d16eb4c3685",
+      "public_sha256": "3a935061a92e7488fcae211067c658611cb7f8441a956f98d4ae958dccb9d602"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/E6_RESULTS_FINAL.zip::bertopic_seed42_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 8,
+      "original_sha256": "833ca5d49d570734e088ab7fa85048b92765515da13842715c4ccb4ce18181a5",
+      "public_sha256": "a522f58f366e509162c081ba654beaae49ca6e641c6fe4f51ce651d7219aa529"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/E6_RESULTS_FINAL.zip::bertopic_seed87_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 8,
+      "original_sha256": "f363d755c9dfb3316429da48455245d297ebc8fdda114abbd2eaab8424389431",
+      "public_sha256": "4073afb308cc520b9f10a0ab0c80ac57d093f53b5cec35c0df930325827f38a5"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/E6_RESULTS_FINAL.zip",
+      "transformation": "Nested ZIP curated; numerical evidence unchanged",
+      "original_sha256": "ad649a67a6c7f5a8f076603114e1a2b5b97af252d2f98db315a753c26f0faa83",
+      "public_sha256": "345cf39943dc1ed3d6bbd30d69f06b01de2404acb2fd4671dcd0a5ca6d4b0d10"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/Results_Expanded/bertopic_seed100_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 4,
+      "original_sha256": "6e6246065aaaa878153a973b31b545297e060850182068892fe1926227317801",
+      "public_sha256": "10ac362ea3c96b2e1b0ee696a6c2a5052316651522953fe69799c7ef985a3b75"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/Results_Expanded/bertopic_seed13_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 3,
+      "original_sha256": "414e67c9dd9b8bf0cf6cfa3482fd03c971ea0f3dc0aa9ed1d74f8abba7621bb5",
+      "public_sha256": "82ef484554cf8f709152df35dda9bfa5fa032d03d40fee6b95561ce3022de595"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/Results_Expanded/bertopic_seed21_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 4,
+      "original_sha256": "c724d615abbd477079875b3eeca943f1fa628038d276ef436c058d16eb4c3685",
+      "public_sha256": "3a935061a92e7488fcae211067c658611cb7f8441a956f98d4ae958dccb9d602"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/Results_Expanded/bertopic_seed42_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 8,
+      "original_sha256": "833ca5d49d570734e088ab7fa85048b92765515da13842715c4ccb4ce18181a5",
+      "public_sha256": "a522f58f366e509162c081ba654beaae49ca6e641c6fe4f51ce651d7219aa529"
+    },
+    {
+      "path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/08_E6_SEMANTIC_TOPIC_STABILITY/Results_Expanded/bertopic_seed87_topic_info.csv",
+      "transformation": "Removed raw text columns; all retained CSV values unchanged",
+      "removed_columns": [
+        "Representative_Docs"
+      ],
+      "rows": 8,
+      "original_sha256": "f363d755c9dfb3316429da48455245d297ebc8fdda114abbd2eaab8424389431",
+      "public_sha256": "4073afb308cc520b9f10a0ab0c80ac57d093f53b5cec35c0df930325827f38a5"
+    }
+  ],
+  "excluded_categories": [
+    "raw dataset text",
+    "private correspondence and author forms",
+    "unpublished manuscripts and journal templates",
+    "omitted neural weight bytes"
+  ],
+  "historical_scientific_payload_files": 251,
+  "contemporary_export_byte_identical": true,
+  "lodo_index_reconstruction": {
+    "scope": "Reconstructed from frozen September E4 notebook rules, not an original saved index file",
+    "frozen_raw_input_hashes_verified": true,
+    "all_fold_counts_and_class_rates_match": true,
+    "all_10_fold_logit_files_calibration_target_source_label_arrays_match": true,
+    "all_target_source_prediction_identities_match": true,
+    "rows": 14927,
+    "heldout_domains": [
+      "abuse",
+      "anxiety",
+      "financial",
+      "PTSD",
+      "social"
+    ],
+    "csv_sha256": "f06d1915759fb01806e6e2a904e4a9ad592d4a537c7da0f30371d05d5dd3b3ed"
+  }
+}

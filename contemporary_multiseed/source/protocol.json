@@ -1,0 +1,90 @@
+{
+  "protocol_id": "IJIES_20266380_R1_multiseed_v1",
+  "seeds": [
+    13,
+    21,
+    42,
+    87,
+    100
+  ],
+  "model_specs": {
+    "BERT": {
+      "model_id": "bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "revision_source": "E4_MODEL_REVISION_LOCK; used for new runs; historical fresh E2 revision unconfirmed",
+      "micro_batch": 16,
+      "gradient_accumulation": 1
+    },
+    "RoBERTa": {
+      "model_id": "roberta-base",
+      "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "revision_source": "E3_MODEL_REVISION_LOCK",
+      "micro_batch": 16,
+      "gradient_accumulation": 1
+    },
+    "DeBERTa": {
+      "model_id": "microsoft/deberta-v3-base",
+      "revision": "8ccc9b6f36199bec6961081d44eb72fb3f7353f3",
+      "revision_source": "E3_MODEL_REVISION_LOCK",
+      "micro_batch": 8,
+      "gradient_accumulation": 2
+    }
+  },
+  "epochs": 3,
+  "max_length": 128,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "adam_eps": 1e-08,
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "gradient_clip": 1.0,
+  "warmup_steps": 0,
+  "ls_epsilon": 0.1,
+  "conditions": [
+    "Vanilla",
+    "Vanilla+TS",
+    "LS0.10"
+  ],
+  "neural_training_conditions": [
+    "Vanilla",
+    "LS0.10"
+  ],
+  "training_rows": 2415,
+  "calibration_rows": 423,
+  "test_rows": 715,
+  "train_partition": [
+    "fit",
+    "validation"
+  ],
+  "model_precision": "float32",
+  "attention_implementation": "eager",
+  "checkpoint_selection": "fixed_final_epoch",
+  "deterministic_algorithms": "warn_only; capture warnings",
+  "dataloader_workers": 0,
+  "train_sha256": "4e791e60d3f04dd9f14abb1228b0d4f92bf628cc84097c1c173401e98d355f4e",
+  "test_sha256": "a3b6c9bf5d685f49d57e05d24266dddc52999843256b13e65c07267c543175fe",
+  "split_sha256": "843946692fbc72b189549174e55ab561742052b92dcefabd2732721795df1daf",
+  "temperature_log_bounds": [
+    -4.0,
+    4.0
+  ],
+  "ece_bins": 10,
+  "aurc_ties": "Vanilla+TS shares Vanilla margin ordering; LS stable original row ordering",
+  "inference": "seed-level paired deltas and sample SD; no new significance tests or hierarchical CI claimed",
+  "test_metric_visibility": "only after all 30 neural fits complete",
+  "retain_final_weights": "BERT seed 42 Vanilla and LS; optional additional weights",
+  "expected_versions": {
+    "torch": "2.11.0",
+    "transformers": "5.16.1",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "sentencepiece": "0.2.1"
+  },
+  "provenance_note": "These are new revision fits; they do not replace or authenticate July or September model instances. Eager attention is explicitly pinned for the new batch; historical attention backend was not fully recorded.",
+  "nll_evaluation": "float64 stable logsumexp; no finite-probability clipping",
+  "roundoff_policy": "Binary AURC uses absolute unscaled logit margin to preserve the theoretical ordering under TS"
+}

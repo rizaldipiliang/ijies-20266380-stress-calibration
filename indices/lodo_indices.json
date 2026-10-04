@@ -1,0 +1,16 @@
+{
+  "scope": "Reconstructed from frozen September E4 notebook rules, not an original saved index file",
+  "frozen_raw_input_hashes_verified": true,
+  "all_fold_counts_and_class_rates_match": true,
+  "all_10_fold_logit_files_calibration_target_source_label_arrays_match": true,
+  "all_target_source_prediction_identities_match": true,
+  "rows": 14927,
+  "heldout_domains": [
+    "abuse",
+    "anxiety",
+    "financial",
+    "PTSD",
+    "social"
+  ],
+  "csv_sha256": "f06d1915759fb01806e6e2a904e4a9ad592d4a537c7da0f30371d05d5dd3b3ed"
+}

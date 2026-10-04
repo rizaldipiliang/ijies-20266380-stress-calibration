@@ -1,0 +1,123 @@
+{
+  "records": [
+    {
+      "public_path": "contemporary_multiseed/source/revision_common.py",
+      "original_sha256": "e23d3ce80f92bfa3af88b38bd1c49ef0ad74be1d7ea1b393578f54c599a87df1",
+      "byte_identical": true
+    },
+    {
+      "public_path": "contemporary_multiseed/source/revision_runner.py",
+      "original_sha256": "36e153ee26decaad4f243474aa312a30eba30013c5cf9692fdba95cc1cc92539",
+      "byte_identical": true
+    },
+    {
+      "public_path": "contemporary_multiseed/source/protocol.json",
+      "original_sha256": "eaf475b1795f0896dcc4beb9174caa961abe1c3f1ab6d7ad11aeb5fc67dcf141",
+      "byte_identical": true
+    },
+    {
+      "public_path": "contemporary_multiseed/source/requirements.txt",
+      "original_sha256": "7498baa4846e9a788de44b08ab6eb855f841884b4392bad64f2b805c076fb533",
+      "byte_identical": true
+    },
+    {
+      "public_path": "historical_notebooks/00_Historical_CalibBERT_Model.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/00_Historical_CalibBERT_Model.ipynb",
+      "original_notebook_sha256": "d068a255eb2bb2bd4a9927f4a300bd134a5f75d817fb005a59acf106c5fe06ce",
+      "public_notebook_sha256": "51af63a1a7212b59b20bc9b96bdb00bb54c410a446a5e33930db6cdbc8e24241",
+      "code_cells_sha256": "efda7169697bc3acbee81cb0cc31afab60bba6cbe84216a5432514ea64855c1e",
+      "code_cells_unchanged": true,
+      "outputs_removed": 186
+    },
+    {
+      "public_path": "historical_notebooks/00_Historical_JUCS_Canonical_Evidence.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/00_Historical_JUCS_Canonical_Evidence.ipynb",
+      "original_notebook_sha256": "f40bf03c64c8a86db5ec9aa1e1f15849b45e4cff9c76ddc437d2f1d475971e98",
+      "public_notebook_sha256": "51af63a1a7212b59b20bc9b96bdb00bb54c410a446a5e33930db6cdbc8e24241",
+      "code_cells_sha256": "efda7169697bc3acbee81cb0cc31afab60bba6cbe84216a5432514ea64855c1e",
+      "code_cells_unchanged": true,
+      "outputs_removed": 186
+    },
+    {
+      "public_path": "historical_notebooks/01_E1_Canonical_Reproduction_CalibBERT_v2.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/01_E1_Canonical_Reproduction_CalibBERT_v2.ipynb",
+      "original_notebook_sha256": "c8db42dfa589a43a3056fcdec4fef6ee2491598cb02abe0a9223fbfe7f93b11b",
+      "public_notebook_sha256": "2973fb0899d44a6db48d232136d58c6d0e77a5c0698752a7c3b80553b4992196",
+      "code_cells_sha256": "fa2912340be56653116a6c9a5a52f714c3b30e223483344a4c69ab5937488b7b",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/02_E2_Strong_Calibration_Benchmark_CalibBERT_v2.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/02_E2_Strong_Calibration_Benchmark_CalibBERT_v2.ipynb",
+      "original_notebook_sha256": "ee178283ac1ec7f72c77d9bd60981ee5132670577ce6d295c6543992fb50de3f",
+      "public_notebook_sha256": "171923e726002e3de03fabe9c6433fd74bb94d4cbf8cfb29f788e106a9464d6b",
+      "code_cells_sha256": "dfc99622b4c82ca16ab76d6641f3a8464554d01961ccf98267ce4aae234619e9",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/02_E2_v2_1_Fresh_Paired_Replication.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/02_E2_v2_1_Fresh_Paired_Replication.ipynb",
+      "original_notebook_sha256": "e14f0607055f7239e3604ac117724f9780118daaf7b129957d8234675a4a6ae8",
+      "public_notebook_sha256": "d3bad4cfd519c8205abbf2a5523548cfe07bf94b855268266bd6356985859aad",
+      "code_cells_sha256": "14887ee306bce3494c917a3c57793ff9427c82a85e66f5d80475ccf116622081",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/02_E2_v2_2_Lite_Fresh_Paired_Replication_FINAL.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/02_E2_v2_2_Lite_Fresh_Paired_Replication_FINAL.ipynb",
+      "original_notebook_sha256": "0fb70fc449d9c11b58058cf67723661e5903bc3a852121823c77aae66eb71054",
+      "public_notebook_sha256": "e16600f02fc589a846ca33c1fe19087f23796e1bb18cef1adea429df8b5f33bf",
+      "code_cells_sha256": "0263e019e431a96c8721fd9432c48deb2e272990890169bef15f59532ff4d8ea",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/03_E3_Cross_Backbone_Replication_CalibBERT_v2.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/03_E3_Cross_Backbone_Replication_CalibBERT_v2.ipynb",
+      "original_notebook_sha256": "0c61c62b300e062ff9656f67e059abc067f998f9df642b0492242355953de877",
+      "public_notebook_sha256": "0cfd2bc560c8238edaca43cc52dbade725fbd5a3599168721bec4c592774b72a",
+      "code_cells_sha256": "2c52f67f894d406ee1dec23f10c055d83572e5a4f46f89cca75d68696a6a83f3",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/04_E4_LODO_Domain_Shift_Audit_CalibBERT_v2.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/04_E4_LODO_Domain_Shift_Audit_CalibBERT_v2.ipynb",
+      "original_notebook_sha256": "03a139c2f2103f39001034f7c9790148d1416626138d1a3896eb4be3cea1c5f7",
+      "public_notebook_sha256": "120b6f7006e9030933887444c2f2ae9341cc76bdaf2088386bdc07e1d8d3ab9f",
+      "code_cells_sha256": "6d16b88da7a781983d209a41ed7698585e57eacb19520b566398dcfe82500ae9",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/05_E5_Risk_Coverage_AURC_CalibBERT_v2.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/05_E5_Risk_Coverage_AURC_CalibBERT_v2.ipynb",
+      "original_notebook_sha256": "a051199ad962bed8c448ac7e31c665d20f21f78f1a2a50995be988593f21c88f",
+      "public_notebook_sha256": "ff259a5ad9f0d4b4ae44b352d62541f6dfa80ebe8346388031834e18e4cd55a8",
+      "code_cells_sha256": "12ce5d36f262a233ff523938f0f839754efa54cb3ab04e093723d4d8ea7f28d1",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/06_E6_Semantic_Topic_Stability_CalibBERT_v2.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/06_E6_Semantic_Topic_Stability_CalibBERT_v2.ipynb",
+      "original_notebook_sha256": "0da06c2d2b7825acc1a64f309eae73d98ff89432bd9a209a2c1aad827e32712f",
+      "public_notebook_sha256": "8642132c9133cd057a2708ae6416e469c03b273e0671b7e927ec0e044ee45078",
+      "code_cells_sha256": "4960c7e70eadadf20addc7320837e89ee81dce1593232b685b7e79168bcd5bb8",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    },
+    {
+      "public_path": "historical_notebooks/07_E7_Cluster_Aware_Statistical_Inference_CalibBERT_v2.ipynb",
+      "original_scientific_path": "evidence_unpacked/CalibBERT_REVIEWER_SEMINAR_LIGHT_2026-09-21/CalibBERT_Seminar_Reviewer_Pack_2026-09-21/02_COLAB_NOTEBOOKS/07_E7_Cluster_Aware_Statistical_Inference_CalibBERT_v2.ipynb",
+      "original_notebook_sha256": "3a74d3c07558776d8d8259a0fcdce36968e32e36442ed0402baafbff96c576c5",
+      "public_notebook_sha256": "0fb908769514cd58c8ae310dadec36bd10a7866f039fd197cc9a90efce538d27",
+      "code_cells_sha256": "e3e1232eec55b71188e23b4ad3f3876ffa13cd63d8d1b9f42f5e313bfd2ea872",
+      "code_cells_unchanged": true,
+      "outputs_removed": 0
+    }
+  ]
+}

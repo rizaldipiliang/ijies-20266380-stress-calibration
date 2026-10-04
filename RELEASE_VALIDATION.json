@@ -1,0 +1,194 @@
+{
+  "validation": "PASS",
+  "external_publication_claimed": false,
+  "validation_scope": "Local curated release tested in a separate extracted working copy",
+  "contemporary_public_results_audit": "PASS",
+  "contemporary_full_raw_input_audit": "PASS",
+  "source_and_run_hashes_verified": true,
+  "all_45_condition_metrics_reproduced": true,
+  "original_E7_tables_reproduced": 8,
+  "historical_descriptive_tables_reproduced": 9,
+  "numeric_tables_compared_in_total": 27,
+  "maximum_absolute_numeric_difference": 3.3881317890172014e-21,
+  "numerical_comparisons": [
+    {
+      "scope": "contemporary independent audit",
+      "file": "independent_paired_summary.csv",
+      "rows": 6,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "contemporary independent audit",
+      "file": "independent_paired_deltas.csv",
+      "rows": 30,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "contemporary independent audit",
+      "file": "independent_metrics_by_seed.csv",
+      "rows": 45,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "contemporary independent audit",
+      "file": "independent_mean_sd.csv",
+      "rows": 9,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "contemporary independent audit",
+      "file": "all_training_histories.csv",
+      "rows": 90,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "public vs full raw-input audit",
+      "file": "independent_paired_summary.csv",
+      "rows": 6,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "public vs full raw-input audit",
+      "file": "independent_paired_deltas.csv",
+      "rows": 30,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "public vs full raw-input audit",
+      "file": "independent_metrics_by_seed.csv",
+      "rows": 45,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "public vs full raw-input audit",
+      "file": "independent_mean_sd.csv",
+      "rows": 9,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "public vs full raw-input audit",
+      "file": "all_training_histories.csv",
+      "rows": 90,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "domain_counts.csv",
+      "rows": 5,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "bert_posthoc_comparators.csv",
+      "rows": 10,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "historical_bert_seed_metrics.csv",
+      "rows": 10,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "topic_resolution_per_seed.csv",
+      "rows": 25,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "topic_resolution_summary.csv",
+      "rows": 6,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "historical_bert_seed_summary.csv",
+      "rows": 4,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "domain_metrics_full.csv",
+      "rows": 30,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "domain_deltas.csv",
+      "rows": 15,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "historical descriptive additions",
+      "file": "family_b_paired_differences.csv",
+      "rows": 2145,
+      "max_absolute_numeric_difference": 3.3881317890172014e-21
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_E6_Stability_Evidence.csv",
+      "rows": 4,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_Secondary_E4_MacroDomain_AURC.csv",
+      "rows": 3,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_FamilyB_DomainShift_ProperScores.csv",
+      "rows": 10,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_Secondary_E3_F1_AURC.csv",
+      "rows": 12,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_E6_Top2Vec_TopicCount_Distribution.csv",
+      "rows": 3,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_Integrated_Evidence_E2_to_E6.csv",
+      "rows": 37,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_FamilyA_CrossBackbone_ProperScores.csv",
+      "rows": 12,
+      "max_absolute_numeric_difference": 0
+    },
+    {
+      "scope": "original E7 statistics from curated public inputs",
+      "file": "Table_E7_E6_RobustAlignedTopics_Descriptive.csv",
+      "rows": 6,
+      "max_absolute_numeric_difference": 0
+    }
+  ],
+  "recursive_payload_scan": {
+    "native_files": 47,
+    "archives": 9,
+    "payload_files": 701,
+    "csvs": 303,
+    "notebooks": 12,
+    "secrets_detected": 0
+  },
+  "contemporary_export_sha256": "fccebde75884f34cbe690041a072a505f64cad58bb852990e2282059609bc622",
+  "historical_public_archive_sha256": "cc55213071dd65ec0cc484658728c5141f55aaa0f5b0fd1695588350f2692071",
+  "known_limits": [
+    "Original E2 BERT/tokenizer commit unrecorded",
+    "Original E6 HDBSCAN version unknown",
+    "Omitted neural checkpoint bytes are not audited or deposited",
+    "Current remote dataset-distribution bytes were not fetched and compared",
+    "Repository upload and unauthenticated access verification remain outstanding"
+  ]
+}
